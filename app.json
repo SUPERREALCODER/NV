@@ -15,8 +15,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff",
-        "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
-      }
+        "permissions": [
+          "ACCESS_FINE_LOCATION",
+          "ACCESS_COARSE_LOCATION",
+          "BLUETOOTH",
+          "BLUETOOTH_ADMIN",
+          "BLUETOOTH_CONNECT",
+          "BLUETOOTH_SCAN",
+          "ACCESS_FINE_LOCATION",
+          "ACCESS_COARSE_LOCATION",
+          "BLUETOOTH",
+          "BLUETOOTH_ADMIN",
+          "BLUETOOTH_CONNECT",
+          "BLUETOOTH_SCAN"
+        ]
+      },
+      "package": "com.anonymous.geosearchapp"
     },
     "web": {
       "bundler": "metro",
